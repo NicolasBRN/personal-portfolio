@@ -15,7 +15,7 @@ body {
 #bottom {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
     margin-top: 20px;
 }
 
@@ -45,7 +45,13 @@ body {
 #second-row {
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+#second-row {
+    margin-top: 0px;
 }
 
 .show-page {
