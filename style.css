@@ -1,0 +1,14 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+img {
+    border-radius: 50%;
+  }
+
+#top-center {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
