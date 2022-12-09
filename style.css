@@ -1,14 +1,34 @@
 body {
-    margin: 0px;
+    margin: 20px;
     padding: 0px;
+}
+
+#top {
+    background-color: beige;
+    margin: 20px auto;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 20px;
 }
 
 img {
     border-radius: 50%;
+    
   }
 
 #top-center {
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+
+#welcome {
+    text-align: center;
+    font-size: 35px;
+}
+
+#intro {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 20px auto;
 }
