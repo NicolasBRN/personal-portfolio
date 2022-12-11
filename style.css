@@ -12,6 +12,11 @@ body {
     border-radius: 20px;
 }
 
+#profile {
+    max-width: 200px;
+    min-width: 100px;
+}
+
 #bottom {
     display: flex;
     flex-direction: column;
